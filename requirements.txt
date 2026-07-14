@@ -1,0 +1,8 @@
+streamlit>=1.32
+pandas>=2.0
+openpyxl>=3.1
+pdfplumber>=0.11
+
+# Opcionais — só necessários se algum PDF vier escaneado (sem texto embutido)
+pytesseract>=0.3.10
+Pillow>=10.0

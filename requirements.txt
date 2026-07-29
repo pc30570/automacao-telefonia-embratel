@@ -1,0 +1,14 @@
+streamlit>=1.32
+pandas>=2.0
+openpyxl>=3.1
+pdfplumber>=0.11
+
+# Necessários para o fallback de OCR (PDFs escaneados/imagem)
+pytesseract>=0.3.10
+Pillow>=10.0
+
+# O Tesseract em si não é um pacote Python — precisa instalar no sistema:
+#   Ubuntu/Debian: apt install tesseract-ocr tesseract-ocr-por
+#   macOS (brew):  brew install tesseract tesseract-lang
+# Sem o pacote "tesseract-ocr-por", o OCR ainda funciona em inglês (menos
+# preciso para acentos, mas os números continuam legíveis).
